@@ -5,3 +5,13 @@ body {
     display: block;
     margin: 0;
 }
+
+.cab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #596153;
+    border-color: #EF4F2B;
+    padding: 10px;
+}
