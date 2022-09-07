@@ -23,3 +23,37 @@ body {
 .form {
     margin: 50px;
 }
+
+.cab-i {
+    padding: 30px;
+    color: #ff6338;
+}
+
+.img {
+    height: 60px;
+}
+
+.a {
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 90px;
+    font-size: 27px;
+}
+
+#git {
+    font-size: 60px;
+}
+
+.fim {
+    background-color: #596153;
+    padding: 70px;
+}
+
+.nome {
+    font-size: 30px;
+}
+
+.b1 {
+    height: 70px;
+}
