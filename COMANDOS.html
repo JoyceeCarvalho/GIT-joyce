@@ -7,10 +7,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMANDOS</title>
     <link rel="stylesheet" type="text/css" href="styles-GIT.css">
-
 </head>
+<header class="cab">
+    <img class="img" src="Rectangle 1.svg">
+
+    <nav class="a">
+
+        <a href="HOME.html" class="cab-i">HOME</a>
+        <a href="INSTALAÇÃO.html" class="cab-i">INSTALAÇÂO</a>
+        <a href="EXTRA.html" class="cab-i">EXTRA</a>
+    </nav>
+</header>
 
 <body>
+    <div class="body2">
+        <h1>COMANDOS</h1>
+        <h1>Principais comandos Git</h1>
+        <p>Usando o Controle de Versão, cada mudança feita no sistema é rastreada, junto com quem fez a mudança, por que a fez e referências aos problemas corrigidos ou aprimoramentos introduzidos pela mudança. Nesse caso, funciona como um log, uma forma
+            de acompanhar cada etapa da evolução do projeto. Porém, isso é metade do conceito. É fundamental também que seja possível reverter qualquer alteração específica feita no sistema ou comparar as versões em qualquer data.</p>
+        <h1>Comandos Git básicos</h1>
+        <h2>1. git config</h2>
+        <p>Quando você está utilizando o Git pela primeira vez ou com uma instalação nova, em um projeto colaborativo, esse comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada
+            commit.
+        </p>
+        <h2 class="cab-i">Exemplo:</h2>
+        <h3>
+            $ git config –global user.name “Seu nome” $ git config –global user.email “Seu email”</h3>
+        <h2>2. git init</h2>
+        <p>Esse é o comando que você irá utilizar para criar um novo projeto de git. O comando irá criar um repositório novo em branco e, a partir daí, será possível armazenar seu código fonte, alterar, salvaguardar alterações etc.</p>
+        <h2 class="cab-i">Exemplo:</h2>
+        <h3>$ git init - Se você já possui um repositório anterior ou deseja criar um repositório com um nome em específico, você pode passar o nome como parâmetro do comando: $ git init
+            <O nome do seu repositório>
+        </h3 class="cab-i">
+        <h2>3. git clone</h2>
+        <p>Esse comando Git cria uma cópia exata de um repositório já existente. Então… quando usar git init e quando usar git clone? O git clone é mais avançado, uma vez que ele mesmo executa um comando git init internamente. Além disso, ele verifica todo
+            o conteúdo do projeto.
+        </p>
+        <h3 class="cab-i">Exemplo:</h3>
+        <h2>git clone
+            <URL do seu projeto></URL>
+        </h2>
+        <h2>4. git add</h2>
+        <p>Esse comando Git adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou arquivos anteriores que foram alterados. Oferece diferentes possibilidades de sintaxe.
+        </p>
+        <h3 class="cab-i">Exemplo:</h3>
+        <h2>$ git add seu_arquivo - (esse comando irá adicionar o arquivo em específico ao repositório) $ git add * - (esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório)</h2>
+        <h2>5. git commit</h2>
+        <p>
+            <li>
+                git add adiciona seus arquivos modificados à fila para serem submetidos a um commit posteriormente. Os arquivos não passaram por um commit.
+            </li>
+            <li>
+                O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log. Por outro lado, se você não adicionar nenhum arquivo, o git não fará o commit de nada. É possível combinar as duas ações em um único comando: $ git commit
+                -a.
+            </li>
+        </p>
+        <h3 class="cab-i">Exemplo:</h3>
+        <h2>$ git commit -m “seu comentário”</h2>
+        <h2>6. git branch</h2>
+        <p>É comum na maior parte do tempo possuir múltiplas variações em seu repositório Git, chamadas de branches (“ramificações”). A grosso modo, um branch é um caminho independente de desenvolvimento, uma alternativa. A princípio pode parecer fácil se
+            perder em diversos caminhos, mas o comando git branch facilita o gerenciamento de tudo isso. Com diferentes parâmetros, é possível listar, criar ou apagar os branches.
+        </p>
+        <h3 class="cab-i">Exemplo:</h3>
+        <h2>$ git branch - (lista todas as ramificações) - $ git branch
+            <nome_do_branch> - (cria um branch com o nome especificado) - $ git branch -d
+                <nome_do_branch> - (deleta o branch com o nome especificado)</h2>
+    </div>
 
 </body>
 
